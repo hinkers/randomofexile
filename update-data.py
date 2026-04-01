@@ -34,6 +34,9 @@ def build_poe1_gems():
         if not display_name:
             display_name = gem.get("base_item", {}).get("display_name", key)
 
+        if display_name.startswith("["):
+            continue
+
         raw_tags = gem.get("tags", [])
         display_tags = []
         for t in raw_tags:
