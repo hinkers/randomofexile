@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Titan",
+    "class": "Warrior"
+  },
+  {
+    "name": "Warbringer",
+    "class": "Warrior"
+  },
+  {
+    "name": "Gemling Legionnaire",
+    "class": "Mercenary"
+  },
+  {
+    "name": "Witchhunter",
+    "class": "Mercenary"
+  },
+  {
+    "name": "Invoker",
+    "class": "Monk"
+  },
+  {
+    "name": "Acolyte of Chayula",
+    "class": "Monk"
+  },
+  {
+    "name": "Stormweaver",
+    "class": "Sorceress"
+  },
+  {
+    "name": "Chronomancer",
+    "class": "Sorceress"
+  },
+  {
+    "name": "Deadeye",
+    "class": "Ranger"
+  },
+  {
+    "name": "Pathfinder",
+    "class": "Ranger"
+  },
+  {
+    "name": "Blood Mage",
+    "class": "Witch"
+  },
+  {
+    "name": "Infernalist",
+    "class": "Witch"
+  }
+]
