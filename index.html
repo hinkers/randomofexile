@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random of Exile</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0e;
+            color: #c8b88a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #d4a44a;
+            text-shadow: 0 0 20px rgba(212, 164, 74, 0.3);
+            margin-bottom: 2rem;
+            letter-spacing: 2px;
+        }
+
+        .game-toggle {
+            display: flex;
+            gap: 0;
+            margin-bottom: 2rem;
+            border: 1px solid #3a3024;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .game-toggle button {
+            padding: 0.6rem 1.8rem;
+            background: #1a1a22;
+            color: #8a7e6b;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .game-toggle button.active {
+            background: #2a2418;
+            color: #d4a44a;
+            box-shadow: inset 0 0 15px rgba(212, 164, 74, 0.1);
+        }
+
+        .game-toggle button:hover:not(.active):not(:disabled) {
+            background: #222230;
+            color: #b0a48a;
+        }
+
+        .game-toggle button:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .slots-container {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .slot {
+            width: 260px;
+            text-align: center;
+        }
+
+        .slot-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #6a5e4b;
+            margin-bottom: 0.5rem;
+        }
+
+        .slot-window {
+            height: 60px;
+            overflow: hidden;
+            border: 2px solid #3a3024;
+            border-radius: 8px;
+            background: #12121a;
+            position: relative;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .slot-strip {
+            position: absolute;
+            width: 100%;
+            transition: transform 0.1s linear;
+        }
+
+        .slot-item {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            color: #e0d6c2;
+            padding: 0 0.5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .randomize-btn {
+            padding: 1rem 3rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            background: linear-gradient(180deg, #3a2e18, #2a2010);
+            color: #d4a44a;
+            border: 2px solid #5a4a2a;
+            border-radius: 8px;
+            cursor: pointer;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.2s;
+            margin-bottom: 2rem;
+        }
+
+        .randomize-btn:hover:not(:disabled) {
+            background: linear-gradient(180deg, #4a3e28, #3a3018);
+            box-shadow: 0 0 20px rgba(212, 164, 74, 0.2);
+        }
+
+        .randomize-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .results {
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s;
+            max-width: 500px;
+        }
+
+        .results.visible {
+            opacity: 1;
+        }
+
+        .result-name {
+            font-size: 1.5rem;
+            color: #d4a44a;
+            margin-bottom: 0.25rem;
+        }
+
+        .result-meta {
+            font-size: 0.85rem;
+            color: #6a5e4b;
+            margin-bottom: 1rem;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .links a {
+            padding: 0.5rem 1rem;
+            background: #1a1a22;
+            color: #b0a48a;
+            border: 1px solid #3a3024;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .links a:hover {
+            background: #2a2418;
+            color: #d4a44a;
+            border-color: #5a4a2a;
+        }
+
+        .error-msg {
+            color: #a04040;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random of Exile</h1>
+
+    <div class="game-toggle">
+        <button id="toggle-poe1" class="active">PoE 1</button>
+        <button id="toggle-poe2">PoE 2</button>
+    </div>
+
+    <div class="slots-container">
+        <div class="slot">
+            <div class="slot-label">Skill Gem</div>
+            <div class="slot-window">
+                <div class="slot-strip" id="gem-strip"></div>
+            </div>
+        </div>
+        <div class="slot">
+            <div class="slot-label">Ascendancy</div>
+            <div class="slot-window">
+                <div class="slot-strip" id="asc-strip"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="randomize-btn" id="randomize-btn">Randomize</button>
+
+    <div class="results" id="results">
+        <div class="result-name" id="result-gem-name"></div>
+        <div class="result-meta" id="result-gem-tags"></div>
+        <div class="result-name" id="result-asc-name"></div>
+        <div class="result-meta" id="result-asc-class"></div>
+        <div class="links" id="result-links"></div>
+    </div>
+
+    <div class="error-msg" id="error-msg"></div>
+
+    <script>
+        // === State & Elements ===
+        const state = {
+            game: "poe1",
+            gems: [],
+            ascendancies: [],
+            spinning: false,
+        };
+
+        const elements = {
+            togglePoe1: document.getElementById("toggle-poe1"),
+            togglePoe2: document.getElementById("toggle-poe2"),
+            gemStrip: document.getElementById("gem-strip"),
+            ascStrip: document.getElementById("asc-strip"),
+            randomizeBtn: document.getElementById("randomize-btn"),
+            results: document.getElementById("results"),
+            resultGemName: document.getElementById("result-gem-name"),
+            resultGemTags: document.getElementById("result-gem-tags"),
+            resultAscName: document.getElementById("result-asc-name"),
+            resultAscClass: document.getElementById("result-asc-class"),
+            resultLinks: document.getElementById("result-links"),
+            errorMsg: document.getElementById("error-msg"),
+        };
+
+        // === Data Loading ===
+        async function loadData(game) {
+            try {
+                const [gemsResp, ascResp] = await Promise.all([
+                    fetch(`data/${game}-gems.json`),
+                    fetch(`data/${game}-ascendancies.json`),
+                ]);
+                if (!gemsResp.ok || !ascResp.ok) throw new Error("Failed to fetch data files");
+                state.gems = await gemsResp.json();
+                state.ascendancies = await ascResp.json();
+                elements.errorMsg.style.display = "none";
+            } catch (e) {
+                elements.errorMsg.textContent =
+                    "Couldn't load game data — make sure you're running a local server (e.g. python3 -m http.server)";
+                elements.errorMsg.style.display = "block";
+                state.gems = [];
+                state.ascendancies = [];
+            }
+        }
+
+        function setGame(game) {
+            if (state.spinning) return;
+            state.game = game;
+            elements.togglePoe1.classList.toggle("active", game === "poe1");
+            elements.togglePoe2.classList.toggle("active", game === "poe2");
+            elements.results.classList.remove("visible");
+            loadData(game);
+        }
+
+        elements.togglePoe1.addEventListener("click", () => setGame("poe1"));
+        elements.togglePoe2.addEventListener("click", () => setGame("poe2"));
+
+        // Load initial data
+        loadData(state.game);
+
+        // === Slot Machine ===
+        const ITEM_HEIGHT = 60;
+        const SPIN_DURATION = 2500;
+        const SPIN_STAGGER = 500;
+
+        function shuffle(arr) {
+            const copy = [...arr];
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [copy[i], copy[j]] = [copy[j], copy[i]];
+            }
+            return copy;
+        }
+
+        function buildStrip(stripEl, items) {
+            stripEl.innerHTML = "";
+            items.forEach((item) => {
+                const div = document.createElement("div");
+                div.className = "slot-item";
+                div.textContent = typeof item === "string" ? item : item.name;
+                stripEl.appendChild(div);
+            });
+            stripEl.style.transition = "none";
+            stripEl.style.transform = "translateY(0px)";
+        }
+
+        function animateSpin(stripEl, totalItems, winnerIndex, duration) {
+            return new Promise((resolve) => {
+                const totalDistance = (totalItems - 1 - winnerIndex) * ITEM_HEIGHT;
+                const startTime = performance.now();
+
+                stripEl.style.transition = "none";
+                stripEl.style.transform = "translateY(0px)";
+
+                function frame(now) {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const y = -eased * totalDistance;
+                    stripEl.style.transform = `translateY(${y}px)`;
+
+                    if (progress < 1) {
+                        requestAnimationFrame(frame);
+                    } else {
+                        resolve();
+                    }
+                }
+
+                requestAnimationFrame(frame);
+            });
+        }
+
+        async function spin() {
+            if (state.spinning || state.gems.length === 0 || state.ascendancies.length === 0) return;
+            state.spinning = true;
+            elements.randomizeBtn.disabled = true;
+            elements.togglePoe1.disabled = true;
+            elements.togglePoe2.disabled = true;
+            elements.results.classList.remove("visible");
+
+            const gemWinner = state.gems[Math.floor(Math.random() * state.gems.length)];
+            const ascWinner = state.ascendancies[Math.floor(Math.random() * state.ascendancies.length)];
+
+            const repeatCount = 6;
+            const gemItems = [];
+            const ascItems = [];
+            for (let i = 0; i < repeatCount; i++) {
+                gemItems.push(...shuffle(state.gems));
+                ascItems.push(...shuffle(state.ascendancies));
+            }
+            gemItems.push(gemWinner);
+            ascItems.push(ascWinner);
+            const gemWinnerIndex = gemItems.length - 1;
+            const ascWinnerIndex = ascItems.length - 1;
+
+            buildStrip(elements.gemStrip, gemItems);
+            buildStrip(elements.ascStrip, ascItems);
+
+            await Promise.all([
+                animateSpin(elements.gemStrip, gemItems.length, gemWinnerIndex, SPIN_DURATION),
+                animateSpin(elements.ascStrip, ascItems.length, ascWinnerIndex, SPIN_DURATION + SPIN_STAGGER),
+            ]);
+
+            showResults(gemWinner, ascWinner);
+
+            state.spinning = false;
+            elements.randomizeBtn.disabled = false;
+            elements.togglePoe1.disabled = false;
+            elements.togglePoe2.disabled = false;
+        }
+
+        elements.randomizeBtn.addEventListener("click", spin);
+
+        // === Results ===
+        function wikiUrl(name) {
+            const base =
+                state.game === "poe1"
+                    ? "https://www.poewiki.net/wiki/"
+                    : "https://www.poe2wiki.net/wiki/";
+            return base + encodeURIComponent(name.replace(/ /g, "_"));
+        }
+
+        function ninjaUrl(gemName, ascName) {
+            const base =
+                state.game === "poe1"
+                    ? "https://poe.ninja/challenge/builds"
+                    : "https://poe.ninja/poe2/builds";
+            return `${base}?skill=${encodeURIComponent(gemName)}&class=${encodeURIComponent(ascName)}`;
+        }
+
+        function showResults(gem, ascendancy) {
+            elements.resultGemName.textContent = gem.name;
+            elements.resultGemTags.textContent = gem.tags.join(", ");
+            elements.resultAscName.textContent = ascendancy.name;
+            elements.resultAscClass.textContent = ascendancy.class;
+
+            elements.resultLinks.innerHTML = "";
+
+            const links = [
+                { text: `${gem.name} Wiki`, href: wikiUrl(gem.name) },
+                { text: `${ascendancy.name} Wiki`, href: wikiUrl(ascendancy.name) },
+                { text: "Builds on poe.ninja", href: ninjaUrl(gem.name, ascendancy.name) },
+            ];
+
+            links.forEach(({ text, href }) => {
+                const a = document.createElement("a");
+                a.href = href;
+                a.textContent = text;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                elements.resultLinks.appendChild(a);
+            });
+
+            elements.results.classList.add("visible");
+        }
+    </script>
+</body>
+</html>
