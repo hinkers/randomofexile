@@ -1,0 +1,2974 @@
+[
+  {
+    "name": "Absolution",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "AoE",
+      "Physical",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Alchemist's Mark",
+    "tags": [
+      "Spell",
+      "Curse",
+      "Mark",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Ambush",
+    "tags": [
+      "Critical",
+      "Spell",
+      "Movement",
+      "Duration",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Ancestral Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Ancestral Protector",
+    "tags": [
+      "Attack",
+      "Totem",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Ancestral Warchief",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Anger",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Animate Guardian",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Animate Weapon",
+    "tags": [
+      "Duration",
+      "Minion",
+      "Spell",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Arc",
+    "tags": [
+      "Spell",
+      "Chaining",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Arcane Cloak",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Guard",
+      "Lightning",
+      "Arcane"
+    ]
+  },
+  {
+    "name": "Arcanist Brand",
+    "tags": [
+      "Trigger",
+      "Spell",
+      "Duration",
+      "Brand"
+    ]
+  },
+  {
+    "name": "Arctic Armour",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Armageddon Brand",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Brand"
+    ]
+  },
+  {
+    "name": "Artillery Ballista",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Assassin's Mark",
+    "tags": [
+      "Critical",
+      "Spell",
+      "Curse",
+      "Mark"
+    ]
+  },
+  {
+    "name": "Ball Lightning",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Bane",
+    "tags": [
+      "Chaos",
+      "Trigger",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Barrage",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Battlemage's Cry",
+    "tags": [
+      "Warcry",
+      "Critical",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Bear Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Berserk",
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Blade Blast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Blade Flurry",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Blade Vortex",
+    "tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Bladefall",
+    "tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Bladestorm",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Blast Rain",
+    "tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Blazing Salvo",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Blight",
+    "tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Channelling",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Blinding Aura",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Trigger"
+    ]
+  },
+  {
+    "name": "Blink Arrow",
+    "tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Blood Offering",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Blood Rage",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Blood and Sand",
+    "tags": [
+      "Spell",
+      "Stance"
+    ]
+  },
+  {
+    "name": "Bodyswap",
+    "tags": [
+      "Movement",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Bone Offering",
+    "tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Boneshatter",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Brand Recall",
+    "tags": [
+      "Brand",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Burning Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Fire",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Caustic Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Chain Hook",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Charged Dash",
+    "tags": [
+      "Movement",
+      "AoE",
+      "Channelling",
+      "Attack",
+      "Lightning",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Clarity",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Cleave",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Cobra Lash",
+    "tags": [
+      "Critical",
+      "Attack",
+      "Projectile",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Cold Snap",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Conductivity",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Consecrated Path",
+    "tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Movement",
+      "Duration",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Contagion",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Conversion Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Convocation",
+    "tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Corrupting Fever",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Crackling Lance",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Creeping Frost",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Cremation",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Cyclone",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Channelling",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Dark Pact",
+    "tags": [
+      "Minion",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Chaos",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Dash",
+    "tags": [
+      "Spell",
+      "Movement",
+      "Travel",
+      "Blink"
+    ]
+  },
+  {
+    "name": "Death Aura",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Chaos",
+      "Trigger"
+    ]
+  },
+  {
+    "name": "Decoy Totem",
+    "tags": [
+      "Totem",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Defiance Banner",
+    "tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Desecrate",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Despair",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Destructive Link",
+    "tags": [
+      "Critical",
+      "Spell",
+      "Duration",
+      "Link"
+    ]
+  },
+  {
+    "name": "Determination",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Detonate Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Detonate Mines",
+    "tags": [
+      "Mine",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Devouring Totem",
+    "tags": [
+      "Totem",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Discharge",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Discipline",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Divine Ire",
+    "tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Dominating Blow",
+    "tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Double Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Dread Banner",
+    "tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Dual Strike",
+    "tags": [
+      "Critical",
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Earthquake",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Earthshatter",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Elemental Hit",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "AoE",
+      "Prismatic",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Elemental Weakness",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Enduring Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Energy Blade",
+    "tags": [
+      "Spell",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Enfeeble",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Ensnaring Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Envy",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Essence Drain",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Chaos",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Ethereal Knives",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Explosive Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Explosive Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Explosive Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Fire",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Exsanguinate",
+    "tags": [
+      "Spell",
+      "Chaining",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Eye of Winter",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Fire Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Fireball",
+    "tags": [
+      "Projectile",
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Firestorm",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Flame Dash",
+    "tags": [
+      "Spell",
+      "Movement",
+      "Duration",
+      "Fire",
+      "Travel",
+      "Blink"
+    ]
+  },
+  {
+    "name": "Flame Link",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Link",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Flame Surge",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flame Wall",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Flameblast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Flamethrower Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Flammability",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Flammable Shot",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Flesh Offering",
+    "tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Flesh and Stone",
+    "tags": [
+      "Spell",
+      "Aura",
+      "AoE",
+      "Stance"
+    ]
+  },
+  {
+    "name": "Flicker Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Movement",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Forbidden Rite",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Freezing Pulse",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frenzy",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Frost Blades",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frost Bomb",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Orb"
+    ]
+  },
+  {
+    "name": "Frost Shield",
+    "tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frost Wall",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Frostbite",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Frostblink",
+    "tags": [
+      "Spell",
+      "Movement",
+      "Duration",
+      "Cold",
+      "Travel",
+      "Blink",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Frostbolt",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Galvanic Arrow",
+    "tags": [
+      "Lightning",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Galvanic Field",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining",
+      "Orb"
+    ]
+  },
+  {
+    "name": "General's Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Glacial Cascade",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Glacial Hammer",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Gluttony of Elements",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Aura"
+    ]
+  },
+  {
+    "name": "Grace",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Ground Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Haste",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Hatred",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Heavy Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Herald of Agony",
+    "tags": [
+      "Spell",
+      "Herald",
+      "Minion",
+      "Chaos",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Herald of Ash",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Herald",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Herald of Ice",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Herald"
+    ]
+  },
+  {
+    "name": "Herald of Purity",
+    "tags": [
+      "Spell",
+      "Herald",
+      "Minion",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Herald of Thunder",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Herald"
+    ]
+  },
+  {
+    "name": "Hexblast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Holy Flame Totem",
+    "tags": [
+      "Totem",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Hydrosphere",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Cold",
+      "Orb",
+      "Lightning",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Ice Crash",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Cold",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Ice Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Ice Shot",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Cold",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Ice Spear",
+    "tags": [
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ice Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Icicle Mine",
+    "tags": [
+      "Mine",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Cold",
+      "Aura",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Immortal Call",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ]
+  },
+  {
+    "name": "Incinerate",
+    "tags": [
+      "Spell",
+      "Fire",
+      "Channelling",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Infernal Blow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Infernal Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Attack",
+      "Trigger",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Intimidating Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Intuitive Link",
+    "tags": [
+      "Trigger",
+      "Spell",
+      "Duration",
+      "Link"
+    ]
+  },
+  {
+    "name": "Kinetic Blast",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Kinetic Bolt",
+    "tags": [
+      "Attack",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Lacerate",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Lancing Steel",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Leap Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Lightning Arrow",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Lightning",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Lightning Conduit",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lightning Spire Trap",
+    "tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lightning Strike",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Melee",
+      "Strike",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lightning Tendrils",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Lightning Trap",
+    "tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Lightning Warp",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Movement",
+      "Lightning",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Malevolence",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Manabond",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Arcane"
+    ]
+  },
+  {
+    "name": "Mirror Arrow",
+    "tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Molten Shell",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Guard"
+    ]
+  },
+  {
+    "name": "Molten Strike",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Orb of Storms",
+    "tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Orb"
+    ]
+  },
+  {
+    "name": "Penance Brand",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Physical",
+      "Lightning",
+      "Duration",
+      "Brand"
+    ]
+  },
+  {
+    "name": "Perforate",
+    "tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Pestilent Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Petrified Blood",
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Phase Run",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Movement",
+      "Physical",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Plague Bearer",
+    "tags": [
+      "Spell",
+      "Chaos",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Poacher's Mark",
+    "tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ]
+  },
+  {
+    "name": "Poisonous Concoction",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Portal",
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Power Siphon",
+    "tags": [
+      "Critical",
+      "Attack",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Precision",
+    "tags": [
+      "Aura",
+      "Critical",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Pride",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Protective Link",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ]
+  },
+  {
+    "name": "Puncture",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Punishment",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Physical",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Purifying Flame",
+    "tags": [
+      "Fire",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Purity of Elements",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Purity of Fire",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Purity of Ice",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Purity of Lightning",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Pyroclast Mine",
+    "tags": [
+      "Mine",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "AoE",
+      "Aura",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Rage Vortex",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Rain of Arrows",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Raise Spectre",
+    "tags": [
+      "Spell",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Raise Zombie",
+    "tags": [
+      "Spell",
+      "Minion"
+    ]
+  },
+  {
+    "name": "Rallying Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Reap",
+    "tags": [
+      "Spell",
+      "Physical",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Reave",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Reckoning",
+    "tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Rejuvenation Totem",
+    "tags": [
+      "Totem",
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Righteous Fire",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Riposte",
+    "tags": [
+      "Trigger",
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Rolling Magma",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Projectile",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Scorching Ray",
+    "tags": [
+      "Spell",
+      "Fire",
+      "Duration",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Scourge Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Channelling",
+      "Chaos",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Searing Bond",
+    "tags": [
+      "Spell",
+      "Totem",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Seismic Cry",
+    "tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Seismic Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Shattering Steel",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Shield Charge",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Shield Crush",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Shock Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Shockwave Totem",
+    "tags": [
+      "Totem",
+      "Spell",
+      "AoE",
+      "Physical",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Shrapnel Ballista",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Physical",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Siege Ballista",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Totem",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Sigil of Power",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Arcane"
+    ]
+  },
+  {
+    "name": "Siphoning Trap",
+    "tags": [
+      "Trap",
+      "Spell",
+      "Duration",
+      "AoE",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Smite",
+    "tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Aura"
+    ]
+  },
+  {
+    "name": "Smoke Mine",
+    "tags": [
+      "Mine",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Movement",
+      "Travel",
+      "Blink"
+    ]
+  },
+  {
+    "name": "Sniper's Mark",
+    "tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ]
+  },
+  {
+    "name": "Soul Link",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ]
+  },
+  {
+    "name": "Soulrend",
+    "tags": [
+      "Chaos",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Spark",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Spectral Helix",
+    "tags": [
+      "Attack",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Spectral Shield Throw",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Spectral Throw",
+    "tags": [
+      "Attack",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Spellslinger",
+    "tags": [
+      "Trigger",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Spirit Offering",
+    "tags": [
+      "Minion",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Split Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Physical",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Splitting Steel",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Static Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Steelskin",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ]
+  },
+  {
+    "name": "Storm Brand",
+    "tags": [
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Chaining",
+      "Duration",
+      "Brand"
+    ]
+  },
+  {
+    "name": "Storm Burst",
+    "tags": [
+      "AoE",
+      "Spell",
+      "Lightning",
+      "Channelling",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Storm Call",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Storm Rain",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Lightning",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Stormbind",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Channelling",
+      "Lightning",
+      "Duration",
+      "Arcane"
+    ]
+  },
+  {
+    "name": "Stormblast Mine",
+    "tags": [
+      "Mine",
+      "Spell",
+      "AoE",
+      "Lightning",
+      "Aura",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Summon Carrion Golem",
+    "tags": [
+      "Physical",
+      "Minion",
+      "Spell",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Summon Chaos Golem",
+    "tags": [
+      "Chaos",
+      "Minion",
+      "Spell",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Summon Flame Golem",
+    "tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Summon Holy Relic",
+    "tags": [
+      "Minion",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Summon Ice Golem",
+    "tags": [
+      "Critical",
+      "Cold",
+      "Minion",
+      "Spell",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Summon Lightning Golem",
+    "tags": [
+      "Lightning",
+      "Minion",
+      "Spell",
+      "Golem"
+    ]
+  },
+  {
+    "name": "Summon Raging Spirit",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Summon Reaper",
+    "tags": [
+      "Physical",
+      "Minion",
+      "Spell"
+    ]
+  },
+  {
+    "name": "Summon Skeletons",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Summon Skitterbots",
+    "tags": [
+      "Trap",
+      "Mine",
+      "Spell",
+      "Minion",
+      "Cold",
+      "Lightning",
+      "AoE",
+      "Aura"
+    ]
+  },
+  {
+    "name": "Summon Stone Golem",
+    "tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Sunder",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Sweep",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Tectonic Slam",
+    "tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Tempest Shield",
+    "tags": [
+      "Spell",
+      "Lightning",
+      "Chaining"
+    ]
+  },
+  {
+    "name": "Temporal Chains",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ]
+  },
+  {
+    "name": "Temporal Rift",
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "name": "Tornado",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Physical",
+      "AoE",
+      "Orb"
+    ]
+  },
+  {
+    "name": "Tornado Shot",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Toxic Rain",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Chaos",
+      "Duration",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Unearth",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "AoE",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Vaal Ancestral Warchief",
+    "tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Vaal",
+      "Melee",
+      "Slam"
+    ]
+  },
+  {
+    "name": "Vaal Arc",
+    "tags": [
+      "Spell",
+      "Chaining",
+      "Vaal",
+      "Lightning",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Vaal Blade Vortex",
+    "tags": [
+      "Critical",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Vaal Blight",
+    "tags": [
+      "Spell",
+      "Chaos",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Nova",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Vaal Breach",
+    "tags": [
+      "Spell",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Burning Arrow",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Vaal",
+      "Fire",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Vaal Clarity",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Cold Snap",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Vaal Cyclone",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Melee",
+      "Movement",
+      "Channelling",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Vaal Detonate Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Vaal Discipline",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Double Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "Vaal",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Vaal Earthquake",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Vaal Fireball",
+    "tags": [
+      "Projectile",
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Vaal Flameblast",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Fire",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Vaal Glacial Hammer",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "AoE",
+      "Vaal",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Vaal Grace",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Ground Slam",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Vaal Haste",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Ice Nova",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Vaal",
+      "Cold",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Vaal Immortal Call",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Vaal",
+      "Guard"
+    ]
+  },
+  {
+    "name": "Vaal Impurity of Fire",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Vaal Impurity of Ice",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Vaal Impurity of Lightning",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Vaal Lightning Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "Vaal",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "name": "Vaal Lightning Trap",
+    "tags": [
+      "Trap",
+      "Critical",
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Vaal Lightning Warp",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning",
+      "Movement",
+      "Travel"
+    ]
+  },
+  {
+    "name": "Vaal Molten Shell",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Vaal",
+      "Guard"
+    ]
+  },
+  {
+    "name": "Vaal Power Siphon",
+    "tags": [
+      "Critical",
+      "Attack",
+      "Projectile",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Rain of Arrows",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Projectile",
+      "Vaal",
+      "Bow"
+    ]
+  },
+  {
+    "name": "Vaal Reave",
+    "tags": [
+      "Attack",
+      "AoE",
+      "Vaal",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Vaal Righteous Fire",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Vaal",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Vaal Spark",
+    "tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Vaal Spectral Throw",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vaal Storm Call",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Vaal Summon Skeletons",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vampiric Link",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ]
+  },
+  {
+    "name": "Vengeance",
+    "tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Venom Gyre",
+    "tags": [
+      "Attack",
+      "Projectile",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Vigilant Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "name": "Viper Strike",
+    "tags": [
+      "Attack",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Chaos"
+    ]
+  },
+  {
+    "name": "Vitality",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "Void Sphere",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical",
+      "Chaos",
+      "Orb"
+    ]
+  },
+  {
+    "name": "Volatile Dead",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ]
+  },
+  {
+    "name": "Voltaxic Burst",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Chaos",
+      "Lightning",
+      "Nova",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Vortex",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Nova"
+    ]
+  },
+  {
+    "name": "Vulnerability",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Physical",
+      "Hex"
+    ]
+  },
+  {
+    "name": "War Banner",
+    "tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Warlord's Mark",
+    "tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ]
+  },
+  {
+    "name": "Wave of Conviction",
+    "tags": [
+      "Fire",
+      "Lightning",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Physical"
+    ]
+  },
+  {
+    "name": "Whirling Blades",
+    "tags": [
+      "Attack",
+      "Movement",
+      "Travel",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Wild Strike",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Lightning",
+      "Cold",
+      "Fire",
+      "Projectile",
+      "AoE",
+      "Chaining",
+      "Prismatic"
+    ]
+  },
+  {
+    "name": "Winter Orb",
+    "tags": [
+      "Cold",
+      "Spell",
+      "Channelling",
+      "AoE",
+      "Duration",
+      "Projectile",
+      "Orb"
+    ]
+  },
+  {
+    "name": "Wintertide Brand",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Cold",
+      "Duration",
+      "Brand"
+    ]
+  },
+  {
+    "name": "Wither",
+    "tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Chaos",
+      "Channelling"
+    ]
+  },
+  {
+    "name": "Withering Step",
+    "tags": [
+      "Travel",
+      "AoE",
+      "Chaos",
+      "Movement",
+      "Blink",
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "name": "Wrath",
+    "tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Lightning"
+    ]
+  },
+  {
+    "name": "Zealotry",
+    "tags": [
+      "Aura",
+      "Critical",
+      "Spell",
+      "AoE"
+    ]
+  },
+  {
+    "name": "[DNT] Call of the Wild",
+    "tags": [
+      "Spell",
+      "Minion"
+    ]
+  }
+]
