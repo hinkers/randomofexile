@@ -11,18 +11,6 @@
     ]
   },
   {
-    "name": "Alchemist's Mark",
-    "tags": [
-      "Spell",
-      "Curse",
-      "Mark",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Chaos"
-    ]
-  },
-  {
     "name": "Ambush",
     "tags": [
       "Critical",
@@ -30,14 +18,6 @@
       "Movement",
       "Duration",
       "Travel"
-    ]
-  },
-  {
-    "name": "Ancestral Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration"
     ]
   },
   {
@@ -94,16 +74,6 @@
     ]
   },
   {
-    "name": "Arcane Cloak",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Guard",
-      "Lightning",
-      "Arcane"
-    ]
-  },
-  {
     "name": "Arcanist Brand",
     "tags": [
       "Trigger",
@@ -142,15 +112,6 @@
     ]
   },
   {
-    "name": "Assassin's Mark",
-    "tags": [
-      "Critical",
-      "Spell",
-      "Curse",
-      "Mark"
-    ]
-  },
-  {
     "name": "Ball Lightning",
     "tags": [
       "Spell",
@@ -160,31 +121,11 @@
     ]
   },
   {
-    "name": "Bane",
-    "tags": [
-      "Chaos",
-      "Trigger",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Hex"
-    ]
-  },
-  {
     "name": "Barrage",
     "tags": [
       "Attack",
       "Projectile",
       "Bow"
-    ]
-  },
-  {
-    "name": "Battlemage's Cry",
-    "tags": [
-      "Warcry",
-      "Critical",
-      "AoE",
-      "Duration"
     ]
   },
   {
@@ -315,13 +256,6 @@
     ]
   },
   {
-    "name": "Blood and Sand",
-    "tags": [
-      "Spell",
-      "Stance"
-    ]
-  },
-  {
     "name": "Bodyswap",
     "tags": [
       "Movement",
@@ -430,17 +364,6 @@
       "AoE",
       "Cold",
       "Duration"
-    ]
-  },
-  {
-    "name": "Conductivity",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Lightning",
-      "Curse",
-      "Hex"
     ]
   },
   {
@@ -585,26 +508,6 @@
     ]
   },
   {
-    "name": "Despair",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Chaos",
-      "Curse",
-      "Hex"
-    ]
-  },
-  {
-    "name": "Destructive Link",
-    "tags": [
-      "Critical",
-      "Spell",
-      "Duration",
-      "Link"
-    ]
-  },
-  {
     "name": "Determination",
     "tags": [
       "Aura",
@@ -738,38 +641,10 @@
     ]
   },
   {
-    "name": "Elemental Weakness",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Curse",
-      "Hex"
-    ]
-  },
-  {
-    "name": "Enduring Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration"
-    ]
-  },
-  {
     "name": "Energy Blade",
     "tags": [
       "Spell",
       "Lightning"
-    ]
-  },
-  {
-    "name": "Enfeeble",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Curse",
-      "Hex"
     ]
   },
   {
@@ -898,15 +773,6 @@
     ]
   },
   {
-    "name": "Flame Link",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Link",
-      "Fire"
-    ]
-  },
-  {
     "name": "Flame Surge",
     "tags": [
       "Spell",
@@ -944,17 +810,6 @@
     ]
   },
   {
-    "name": "Flammability",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Curse",
-      "Hex"
-    ]
-  },
-  {
     "name": "Flammable Shot",
     "tags": [
       "Attack",
@@ -971,15 +826,6 @@
       "Minion",
       "Spell",
       "Duration"
-    ]
-  },
-  {
-    "name": "Flesh and Stone",
-    "tags": [
-      "Spell",
-      "Aura",
-      "AoE",
-      "Stance"
     ]
   },
   {
@@ -1058,17 +904,6 @@
     ]
   },
   {
-    "name": "Frostbite",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Cold",
-      "Curse",
-      "Hex"
-    ]
-  },
-  {
     "name": "Frostblink",
     "tags": [
       "Spell",
@@ -1107,14 +942,6 @@
       "Lightning",
       "Chaining",
       "Orb"
-    ]
-  },
-  {
-    "name": "General's Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration"
     ]
   },
   {
@@ -1237,15 +1064,6 @@
     ]
   },
   {
-    "name": "Hexblast",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Chaos",
-      "Hex"
-    ]
-  },
-  {
     "name": "Holy Flame Totem",
     "tags": [
       "Totem",
@@ -1328,14 +1146,6 @@
     ]
   },
   {
-    "name": "Immortal Call",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Guard"
-    ]
-  },
-  {
     "name": "Incinerate",
     "tags": [
       "Spell",
@@ -1353,36 +1163,6 @@
       "Strike",
       "Fire",
       "Duration"
-    ]
-  },
-  {
-    "name": "Infernal Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Attack",
-      "Trigger",
-      "Melee"
-    ]
-  },
-  {
-    "name": "Intimidating Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration",
-      "Physical"
-    ]
-  },
-  {
-    "name": "Intuitive Link",
-    "tags": [
-      "Trigger",
-      "Spell",
-      "Duration",
-      "Link"
     ]
   },
   {
@@ -1526,17 +1306,6 @@
     ]
   },
   {
-    "name": "Molten Shell",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Physical",
-      "Guard"
-    ]
-  },
-  {
     "name": "Molten Strike",
     "tags": [
       "Attack",
@@ -1614,14 +1383,6 @@
     ]
   },
   {
-    "name": "Poacher's Mark",
-    "tags": [
-      "Spell",
-      "Curse",
-      "Mark"
-    ]
-  },
-  {
     "name": "Poisonous Concoction",
     "tags": [
       "Attack",
@@ -1663,14 +1424,6 @@
     ]
   },
   {
-    "name": "Protective Link",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Link"
-    ]
-  },
-  {
     "name": "Puncture",
     "tags": [
       "Attack",
@@ -1680,17 +1433,6 @@
       "Strike",
       "Physical",
       "Bow"
-    ]
-  },
-  {
-    "name": "Punishment",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Curse",
-      "Physical",
-      "Hex"
     ]
   },
   {
@@ -1783,14 +1525,6 @@
     ]
   },
   {
-    "name": "Rallying Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration"
-    ]
-  },
-  {
     "name": "Reap",
     "tags": [
       "Spell",
@@ -1879,14 +1613,6 @@
       "Spell",
       "Totem",
       "Fire"
-    ]
-  },
-  {
-    "name": "Seismic Cry",
-    "tags": [
-      "Warcry",
-      "AoE",
-      "Duration"
     ]
   },
   {
@@ -2011,22 +1737,6 @@
     ]
   },
   {
-    "name": "Sniper's Mark",
-    "tags": [
-      "Spell",
-      "Curse",
-      "Mark"
-    ]
-  },
-  {
-    "name": "Soul Link",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Link"
-    ]
-  },
-  {
     "name": "Soulrend",
     "tags": [
       "Chaos",
@@ -2110,14 +1820,6 @@
       "Duration",
       "Lightning",
       "Chaining"
-    ]
-  },
-  {
-    "name": "Steelskin",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Guard"
     ]
   },
   {
@@ -2317,16 +2019,6 @@
       "Spell",
       "Lightning",
       "Chaining"
-    ]
-  },
-  {
-    "name": "Temporal Chains",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Curse",
-      "Hex"
     ]
   },
   {
@@ -2582,15 +2274,6 @@
     ]
   },
   {
-    "name": "Vaal Immortal Call",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Vaal",
-      "Guard"
-    ]
-  },
-  {
     "name": "Vaal Impurity of Fire",
     "tags": [
       "Aura",
@@ -2657,18 +2340,6 @@
       "Lightning",
       "Movement",
       "Travel"
-    ]
-  },
-  {
-    "name": "Vaal Molten Shell",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Physical",
-      "Vaal",
-      "Guard"
     ]
   },
   {
@@ -2744,14 +2415,6 @@
       "Minion",
       "Duration",
       "Vaal"
-    ]
-  },
-  {
-    "name": "Vampiric Link",
-    "tags": [
-      "Spell",
-      "Duration",
-      "Link"
     ]
   },
   {
@@ -2839,17 +2502,6 @@
     ]
   },
   {
-    "name": "Vulnerability",
-    "tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Curse",
-      "Physical",
-      "Hex"
-    ]
-  },
-  {
     "name": "War Banner",
     "tags": [
       "AoE",
@@ -2857,14 +2509,6 @@
       "Duration",
       "Aura",
       "Physical"
-    ]
-  },
-  {
-    "name": "Warlord's Mark",
-    "tags": [
-      "Spell",
-      "Curse",
-      "Mark"
     ]
   },
   {

@@ -44,6 +44,14 @@ def build_poe1_gems():
             if mapped:
                 display_tags.append(mapped)
 
+        # Filter out non-damage utility gems
+        exclude_tags = {"Guard", "Curse", "Hex", "Mark", "Stance", "Link", "Warcry", "Banner"}
+        if exclude_tags & set(display_tags):
+            continue
+        # Exclude pure auras (keep ones that also deal damage via Attack/Spell/Mine)
+        if "Aura" in display_tags and not ({"Attack", "Spell", "Mine"} & set(display_tags)):
+            continue
+
         gems.append({"name": display_name, "tags": display_tags})
 
     # Deduplicate by name (some gems have multiple internal entries)
@@ -142,6 +150,12 @@ POE2_GEMS = [
 ]
 
 
+LEAGUES = {
+    "poe1": "mirage",
+    "poe2": "vaal",
+}
+
+
 if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -151,9 +165,13 @@ if __name__ == "__main__":
         ("poe1-ascendancies.json", POE1_ASCENDANCIES),
         ("poe2-gems.json", POE2_GEMS),
         ("poe2-ascendancies.json", POE2_ASCENDANCIES),
+        ("leagues.json", LEAGUES),
     ]:
         with open(os.path.join(DATA_DIR, filename), "w") as f:
             json.dump(data, f, indent=2)
-        print(f"  {filename}: {len(data)} entries")
+        if isinstance(data, list):
+            print(f"  {filename}: {len(data)} entries")
+        else:
+            print(f"  {filename}: {data}")
 
     print("Done!")
